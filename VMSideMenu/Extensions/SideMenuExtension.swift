@@ -12,14 +12,12 @@ import UIKit
 public extension UIViewController {
     
     func addRightSideMenu() {
-        let bundle = Bundle(for: RightSideMenuViewController.self)
-        let customView = getViewController(with: MenuConfig.storyboardName, viewControllerId: MenuConfig.viewControllerId, bundle: bundle)
+        let customView = getViewController(with: MenuConfig.storyboardName, viewControllerId: MenuConfig.viewControllerId, bundle: nil)
         self.addRightParentViewContoller(childViewController: customView, sideMenuName: menuStroryboard, sideMenuId: rightMenuId )
     }
     
     func addLeftSideMenu() {
-        let bundle = Bundle(for: LeftSideMenuViewController.self)
-        let customView = getViewController(with: MenuConfig.storyboardName, viewControllerId: MenuConfig.viewControllerId, bundle: bundle)
+        let customView = getViewController(with: MenuConfig.storyboardName, viewControllerId: MenuConfig.viewControllerId, bundle: nil)
         self.addLeftParentViewContoller(childViewController: customView, sideMenuName: menuStroryboard, sideMenuId: leftMenuId )
     }
     

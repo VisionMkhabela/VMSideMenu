@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4096346B20B416CF00B0DFC8 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4096346A20B416CF00B0DFC8 /* assets.xcassets */; };
+		4096346D20B436AE00B0DFC8 /* VMSideMenu.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4096346C20B436AE00B0DFC8 /* VMSideMenu.podspec */; };
 		40F78CE320B0378F0050DF6F /* VMSideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F78CE120B0378F0050DF6F /* VMSideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40F78CFB20B039C10050DF6F /* StyledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F78CEF20B039C00050DF6F /* StyledView.swift */; };
 		40F78CFC20B039C10050DF6F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F78CF020B039C00050DF6F /* UIView+Extension.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		4096346A20B416CF00B0DFC8 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		4096346C20B436AE00B0DFC8 /* VMSideMenu.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VMSideMenu.podspec; sourceTree = SOURCE_ROOT; };
 		40F78CDE20B0378F0050DF6F /* VMSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VMSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F78CE120B0378F0050DF6F /* VMSideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMSideMenu.h; sourceTree = "<group>"; };
 		40F78CE220B0378F0050DF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		40F78CE020B0378F0050DF6F /* VMSideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				4096346C20B436AE00B0DFC8 /* VMSideMenu.podspec */,
 				40F78CF520B039C10050DF6F /* Config */,
 				40F78CF820B039C10050DF6F /* Constants.swift */,
 				40F78CF220B039C10050DF6F /* Controllers */,
@@ -185,6 +188,7 @@
 			files = (
 				4096346B20B416CF00B0DFC8 /* assets.xcassets in Resources */,
 				40F78D0320B039C10050DF6F /* SideMenu.storyboard in Resources */,
+				4096346D20B436AE00B0DFC8 /* VMSideMenu.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

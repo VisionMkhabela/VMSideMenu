@@ -184,7 +184,6 @@ public extension UIViewController {
             return (10, 20)
         }
     }
-    
 }
 
 public enum MenuType {
